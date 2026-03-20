@@ -155,7 +155,10 @@ Invoke-RestMethod -Method Delete -Uri "http://localhost:8082/v1/tasks/t_1" `
 Invoke-RestMethod -Method Get -Uri "http://localhost:8082/v1/tasks" `
   -Headers @{ "X-Request-ID" = "req-009" } -ErrorAction Stop
 ```
-![](misc/9%20Тест%20невалидного%20токена%20в%20Tasks.png)
+![](misc/10%20Тест%20без%20токена%20в%20Tasks.png)
+
+#### Логи
+![](misc/11%20Логи.png)
 
 ## Границы
 
